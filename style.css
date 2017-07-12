@@ -1,0 +1,462 @@
+.enjoy-css {
+  display: relative;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal normal 900 60px/normal "Aldrich", Helvetica, sans-serif;
+  color: #338acd;
+  padding-left: 18px;
+  padding-top: 7px;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
+}
+.rembeddit {
+  margin: 0px auto;
+  text-align: left;
+  padding: 10px;
+  font-family: 'Noto Sans', Helvetica, sans-serif !important;
+  border: 4px solid #338acd !important;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 885px;
+}
+.rembeddit h4, .rembeddit .reddit-header {
+  display: none;
+}
+
+
+
+
+
+.body {
+  background: rgba(23, 20, 31, 0.498039);
+  color: #000;
+  text-align: center;
+}
+  
+// ul
+.list-channels {
+  margin: 0;  
+  padding: 0;
+}
+
+#template {
+  //text-align: center;
+}
+
+// li element
+.channel-item{
+  display: inline-block;
+  width: 20rem;
+  height: 15rem;
+  position: relative;
+  margin: 0.7em 0.7em;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+// The preview image had a spacing because the image had a link. With this class, there will be no unecessary spacing
+.img-link {
+  paddind: 0;
+  margin: 0;
+  font-size: 0%;
+}
+.preview {
+  width: 100%;
+  height: 10.8rem;
+  margin: 0 auto;
+  background-color: white;
+  transition: 0.2s ease-in-out;
+  opacity: 0.7;
+  transform: scale(1);
+  border-bottom: 1px solid #338acd;
+ }
+.preview:hover {
+  opacity: 1;
+ } //preview
+  
+.logo {
+  position: absolute;
+  top: 11.5rem;
+  left: 0.5rem;
+  width: 3rem;
+  height: 20%;
+  opacity: 0.8;
+  border-radius: 15%;
+}  //logo
+  
+.description {
+  margin: 0;
+  width: 16rem;
+  padding-top: 0.6rem;
+  padding-left: 3.9rem;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  color: #000;
+}  //desription
+  
+.menu-buttons {
+  padding: 0.9em 0 0.4em 0;
+}
+.btn {
+  padding: 0.2em 0.5em;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  border-bottom: 0.02em solid grey;
+}
+  
+#signature {
+  font-size: 0.6rem;
+  margin-left: 1.3rem;
+  color: white;
+  text-decoration: underline;
+}
+#signature:hover {
+  color: red;
+}
+
+
+
+
+
+
+
+
+body {
+    margin: 0px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #000;
+    background-image: url('http://www.codedminds.org/imgs/cmcircurcits.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #cdd2d5;
+    padding: 0px;
+}
+a {
+    color: #338acd;
+    text-decoration: none;
+}
+h2 {
+    font: normal 21px/24px Open Sans;
+    color: #338acd;
+    display: block;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.btn {
+    outline: none;
+    display: inline-block;
+    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.btn-primary.btn-normal {
+    font-size: 15px;
+    padding: 11px 21px 12px;
+}
+.btn-primary {
+    background-color: #1f1f1f;
+    color: #FFF;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+}
+.fheader {
+    margin-bottom: 59px;
+    background-color: #cdd2d5;
+    border-bottom: 4px solid #338acd;
+    padding-bottom: 33px;
+    line-height: 22px;
+    margin: 0 0 0 0;
+    height: 55px;
+}
+.ftitle {
+    top: 0;
+    left: 0px;
+    width: 300px;
+    min-height: 1px;
+    margin-left: 20px;
+    padding: 32px 71px 0 0;
+    line-height: 1.0;
+    font: normal 25px Open Sans;
+    color: #000;
+}
+.fnav {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 700px;
+    min-height: 1px;
+    margin-right: 20px;
+    padding: 32px 71px 0 0;
+    line-height: 1.0;
+    font: normal 25px Open Sans;
+    color: #338acd;
+    text-align: right;
+}
+.fhometop1 {
+    position: relative;
+    width: 100%;
+    height: 545px;
+    min-height: 1px;
+    margin: 0px auto;
+    background-color: rgba(0, 172, 255, 0.8);
+}
+.ftopblocks {
+    width: 900px;
+    height: 543px;
+    min-height: 1px;
+    margin: 0px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.fht1 {
+    width: 900px;
+    height: 543px;
+}
+.bigtitle {
+    width: 900px;
+	margin: 0px auto;
+	text-align: center;
+}
+.fhometop1 .fht1block h2 {
+    padding-bottom: 25px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 300!important;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+}
+.fhometop1 .fht1block p {
+    margin-bottom: 26px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.fhometop1 .feature1 {
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    padding: 56px 56px 42px 46px;
+    background: #338acd;
+    width: 320px;
+    right: 450px;
+}
+.fhometop1 .feature1 h2 {
+    border-bottom: 1px solid #338acd;
+}
+.fhometop1 .feature2 {
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    padding: 48px 65px 42px 56px;
+    background: #ffffff;
+    width: 320px;
+    right: 0px;
+}
+.fhometop1 .feature2 h2 {
+    border-bottom: 1px solid #338acd;
+}
+
+.vstreams {
+	width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	border: 0px;
+}
+.vstreams .pv {
+    height: 400px;
+    width: 	620px;
+}
+.page {
+    position: relative;
+    background-color: #cdd2d5;
+	min-width: 900px;
+    padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 0px solid #a50a10;
+	border-top: 0px solid #a50a10;
+	text-align:center;
+}
+.page .pagecontent {
+    width: 900px;
+	margin: 0px auto;
+}
+.pageb {
+    position: relative;
+    background-color: #cdd2d5;
+	min-width: 900px;
+    padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 4px solid #338acd;
+	text-align:center;
+}
+.page2 {
+    position: relative;
+    background-color: #cdd2d5;
+	min-width: 900px;
+    padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 4px solid #338acd;
+        border-top: 4px solid #338acd;
+	text-align:center;
+}
+.page2 .pagecontent2 {
+    width: 900px;
+	margin: 0px auto;
+}
+.page3 {
+    position: relative;
+    background-color: #cdd2d5;
+	min-width: 900px;
+    padding-top: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-top: 4px solid #33bcff;
+	text-align:center;
+}
+.page3 .pagecontent3 {
+    width: 900px;
+	margin: 0px auto;
+}
+.page4 {
+    position: relative;
+    background-color: #cdd2d5;
+	min-width: 900px;
+    padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: 4px solid #338acd;
+	text-align:center;
+}
+.page4 .pagecontent {
+    width: 900px;
+	margin: 0px auto;
+}
+.subpad {
+    padding: 0px;
+}
+
+.fhomebottom1 {
+    position: relative;
+    background-color: #cdd2d5;
+    height: 280px;
+    padding-top: 18px;
+	border-bottom: 4px solid #338acd;
+	border-top: 4px solid #338acd;
+}
+.fhomebottom1 .fhb1holder {
+    margin: 0px auto;
+	width: 900px;
+}
+.fhomebottom1 .fhb1holder .fhb1block {
+    display: inline-block;
+	width: 297px;
+	text-align: center;
+	vertical-align: top;
+}
+.fhomebottom1 .fhb1holder .fhb1block img {
+    width: 200px;
+	height: 70px;
+    border: 4px solid #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.fhomebottom2 {
+    position: relative;
+    background-color: #cdd2d5;
+    padding-top: 18px;
+}
+.fhomebottom2 .fhb2holder {
+    margin: 0px auto;
+	width: 900px;
+}
+.fhomebottom2 .fhb2holder .box {
+    display: inline-block;
+	width: 49%;
+	text-align: center;
+	vertical-align: top;
+}
+.fhomebottom2 .fhb2holder .box a img {
+    width: 320px;
+    height: 180px;
+}
+.ffooter {
+    text-align: center;
+    background-color: #cdd2d5;
+    border-top: 4px solid #338acd;
+    padding: 5px;
+    margin-bottom: -20px;
+}
+.fhometop2 .fht2holder .allonfacebook {
+    width: 850px;
+	margin: 0px auto;
+        border: 4px solid #338acd;
+	background-color: #fff;
+	padding: 14px;
+}
+.fhometop2 .fht2holder .allonfacebook img {
+    width: 300px;
+	float: right;
+}
+.fhometop2 {
+    position: relative;
+    background-color: #cdd2d5;
+    height: 900px;
+    padding-top: 18px;
+	border-bottom: 4px solid #338acd;
+	border-top: 4px solid #338acd;
+}
+.fhometop2 .fht2holder {
+    margin: 0px auto;
+    width: 900px;
+}
+.fhometop2 .fht2holder .fht2block {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: 0px solid #fff;
+    display: inline-block;
+}
+.fhometop2 .fht2holder .fht2block img {
+    width: 100px;
+    border: 4px solid #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: none;
+}
+.fhometop2 .fht2holder .fht2block a {
+    color: #000;
+    font-weight: bold;
+}

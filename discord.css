@@ -1,0 +1,115 @@
+//mixins
+.bs(@d: 5px, @a: 0.3){
+  box-shadow: 0 @d @d rgba(0,0,0,@a);
+}
+
+.bg-gradient(@col1, @col2){
+  background: linear-gradient(
+    to top,
+    @col1 0%,
+    @col2 * 1.5 100%
+  );
+}
+
+.wrap{
+  height: 100%;width: 100%;
+  display: flex;
+  flex-flow: column;
+
+  color: @white;
+}
+.name--header{
+  display: none;
+  height: 0px;
+  width: 100%;
+  background: @dark-blue;
+  font-size: 200%;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+  color: @white;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  border-bottom: 0.3rem solid @white;
+}
+.bs {
+  display: none;
+}
+.name{
+    display: none;
+}
+.discord{
+    display: none;
+}
+.channels{
+  display: none;
+}
+.users{
+  margin: 0px;
+}
+.user{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  font-size: 100%;
+  margin: 0px auto;
+  background: @underline;
+  padding: 0px;
+  position: relative;
+  width: 65%;
+}
+.user img {
+    height: 25px;
+    border-radius: 100%;
+    user-select: none;
+}
+.bot--tag{
+    display: none;
+    order: 4; 
+    font-size: 50%;
+    background: #7289da;
+    padding: 0.2rem;
+    border-radius: 0.1rem;
+    user-select: none;
+    cursor: default;
+}
+.username{
+    margin: 0 0.5rem;
+    position: relative;
+	color: #ffffff;
+}
+
+.user--status{
+	display: none;
+  @size: 0.8rem;
+  height: @size;
+  width: @size;
+  border-radius: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ddd;
+}
+.status--online{
+  background: #43b581
+}
+.status--idle{
+  background: #faa61a;
+}
+.status--dnd{
+  background: #f04747 ;
+}
+.image--wrap{
+  @size: 2.5rem; 
+  background: transparent;
+  position: relative;
+  border-radius: 100%;
+  height: @size;
+  width: @size;
+}
+.user--game{
+  display: none;
+}
+.users--header {
+	display: none;
+}
